@@ -4,10 +4,10 @@ class Node:
 	def __init__(self):
 		self.id = uuid4()
 		self.connections = {
-			'north' = None,
-			'south' = None,
-			'east' = None,
-			'west' = None
+			'north': None,
+			'south': None,
+			'east': None,
+			'west': None
 		}
 
 class Board:

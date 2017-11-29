@@ -1,4 +1,5 @@
 from emblem import Emblem
+from board import Board
 
 class Flag:
 	def __init__(self):
